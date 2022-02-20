@@ -149,3 +149,8 @@ function deleteNoteFunc() {
     setNotes()
     console.log(arr)
 }
+
+document.querySelector(".dark-btn").addEventListener("click", function() {
+    console.log('dark');
+    document.body.querySelector("section").classList.toggle("darkSection")
+})
