@@ -93,9 +93,9 @@ h2 {
     column-gap: 7%;
     row-gap: 30px;
     /* 4 notes one col */
-    width: 73%;
+/*     width: 73%;
     margin-left: 17.5vw;
-    column-gap: 4%;
+    column-gap: 4%; */
 }
 
 input,
