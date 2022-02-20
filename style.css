@@ -135,6 +135,10 @@ input {
     padding: 5%;
 }
 
+textarea{
+    max-width: 200px;
+}
+
 .fa-trash {
     background-color: #E4E4E4;
     padding: 7px;
