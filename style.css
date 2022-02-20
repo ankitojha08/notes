@@ -177,7 +177,8 @@ footer a {
         right: 22px;
     }
     #notes {
-        margin: 5% 22%;
+        margin: auto;
+        padding: 0;
     }
     nav {
         padding: 5% 27%;
