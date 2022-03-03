@@ -69,7 +69,6 @@ h2 {
     right: 30px;
     border-radius: 100%;
     font-size: large;
-    /* font-weight: ; */
 }
 
 .dark-btn {
@@ -121,7 +120,7 @@ input {
     padding: 10px;
     border-radius: 8px;
     position: relative;
-    width: 200px;
+    max-width: 200px;
 }
 
 .title {
@@ -137,6 +136,10 @@ input {
     border: none;
     outline: none;
     padding: 5%;
+}
+
+textarea {
+    max-width: 200px;
 }
 
 .fa-trash {
@@ -176,9 +179,6 @@ footer a {
         bottom: 3%;
         right: 5%;
     }
-    /* #notes {
-        margin: 5% 22%;
-    } */
     nav {
         padding: 5% 27%;
     }
