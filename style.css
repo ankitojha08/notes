@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+:root {
+    font-size: 16px;
+}
+
 @font-face {
     font-family: Circular;
     src: url(Fonts/CircularStd-Book.otf);
@@ -88,13 +92,12 @@ h2 {
 #notes {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
     margin: auto;
     column-gap: 7%;
     row-gap: 30px;
     /* 4 notes one col */
     width: 73%;
-    margin-left: 17.5vw;
+    /* margin-left: 17.5vw; */
     column-gap: 4%;
 }
 
@@ -118,6 +121,7 @@ input {
     padding: 10px;
     border-radius: 8px;
     position: relative;
+    width: 200px;
 }
 
 .title {
@@ -169,12 +173,12 @@ footer a {
         display: block;
         width: 37px;
         height: 37px;
-        bottom: 30px;
-        right: 22px;
+        bottom: 3%;
+        right: 5%;
     }
-    #notes {
+    /* #notes {
         margin: 5% 22%;
-    }
+    } */
     nav {
         padding: 5% 27%;
     }
